@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@400;500&display=swap');
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+h2{
+	font-size: 40px;
+}
+ table{
+	letter-spacing: 1.2px;
+	
+	border-collapse: collapse;
+    border: 3px solid black;
+	
+}
+
+td{
+	text-align: center;
+	border-collapse: collapse;
+    border: 3px solid black; 
+	
+
+}
+thead{
+	background-color: rgb(255, 187, 0);
+	border-collapse: collapse;
+    border: 3px solid black;
+	
+}
+tbody{
+	border-collapse: collapse;
+    border: 3px solid black;
+}
+
+th{
+	color: black;
+	border-collapse: collapse;
+    border: 3px solid black;
+	padding: 2.5px;
+
+}
+tr{
+	border-collapse: collapse;
+    border: 3px solid black;
+} 
+button{
+	border:none;
+	background: #ffd000;
+    transition: 1s;
+
+}
+button{
+    transition: 1.5s;
+  }
+button:hover{
+    background-color:#616C6F;
+    color: white;
+}
+
+
+table.table-bordered{
+    border:3px solid black;
+    margin-top:20px;
+	padding: 2.5px;
+  }
+table.table-bordered > thead > tr > th{
+    border:3px solid black;
+	text-align: center;
+	border-collapse: collapse;
+	padding: 2.5px;
+}
+table.table-bordered > tbody > tr > td{
+    border:3px solid black;
+	text-align: center;
+	padding: 2.5px;
+	border-collapse: collapse;
+}
+
+
+@media only screen and (orientation: portrait){
+	*{
+		letter-spacing: 1px;
+	}
+}

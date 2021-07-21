@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=BioRhyme:wght@700;800&family=Grandstander:wght@800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* nav bar */
+.navigation .navbar-brand{
+
+    font-size: 2.5rem;
+    font-weight: bolder;
+    padding-left: 16px;
+    font-family: 'Grandstander', cursive; /*'Verdana', fantasy;*/
+    letter-spacing: 0.5px;
+    word-spacing: 1px;
+    padding-top: 0px;
+    padding-bottom: 0px; 
+
+}
+.nav-link{
+    font-weight: bold;
+    font-size: 20px;  
+}

@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=BioRhyme:wght@700;800&family=Grandstander:wght@800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* background image and text */
+body{
+    background: /*rgba(250, 118, 10, 0.7)*/ url("banbgcol.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-blend-mode: darken;
+}
+.background .text h1{
+    color: rgb(255, 250, 0);
+    text-align: center;
+    padding-top: 2rem;
+    text-transform: uppercase;
+    word-spacing: 6px;
+    font-weight: bolder;
+    font-family: 'BioRhyme', serif; /*'Roboto', sans-serif;*/
+    
+}
+
+
+
+/* nav bar */
+.navigation .navbar-brand{
+    font-size: 2.5rem;
+    font-weight: bolder;
+    padding-left: 16px;
+    font-family: 'Grandstander', cursive; /*'Verdana', fantasy;*/
+    letter-spacing: 0.5px;
+    word-spacing: 1px;
+    padding-top: 0px;
+    padding-bottom: 0px; 
+    
+}
+
+.nav-link{
+    font-weight: bold;
+    font-size: 21.4px;
+    color: darkred; 
+}
+
+/* cards on home page */
+.card-img-top{
+    width: 100%;
+    height: 35vh;
+    object-fit: cover;
+}
+#home a{
+    font-weight: bold;
+}
